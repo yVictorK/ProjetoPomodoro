@@ -1,39 +1,144 @@
-# 🍅🕜 Projetos de Aprimoramento nos conhecimentos em React e TypeScript
+# Pomodoro Timer – React + TypeScript
 
-O projeto consiste em um `temporizador do método pomodoro` e o controle dos temporizadores anteriores. O projeto foi feito para aprendizado com base nos conteudos da rocketseat disponibilizados na internet. 
-Nele foram utilizados os conceitos de componentização, rotas entre páginas, hooks do React, como useEffect, useState e o useReducer, uso do local storage. Além disso foi utilizado o typescript com styled components para a estilização da página.
+A Pomodoro timer app built with React and TypeScript as a learning project. The app allows users to start Pomodoro cycles and track previously performed cycles through a historical view.
 
-## 💻 Demonstração
+---
 
-Veja como funciona: 
+## Overview
 
-![Tela Inicial](src/assets/readmeImages/TelaInicial.png)
-![Tela de Histórico](src/assets/readmeImages/Historico.png)
+This project was developed as part of a study process focused on improving skills in React and TypeScript. The application implements a Pomodoro timer that allows users to start work sessions and track previously executed cycles.
 
-## ▶️ Como executar o projeto localmente
+The project was built following educational content from Rocketseat and focuses on practicing modern React concepts such as component-based architecture, state management with hooks, routing between pages, and persistent state using LocalStorage.
 
-No seu terminal 
+The main goal of this project is to reinforce knowledge in React application structure, state handling, and TypeScript integration in a real interface.
+
+---
+
+## Features
+
+- Pomodoro timer to manage focused work sessions
+- History page showing previous cycles
+- Component-based architecture
+- Page navigation using React Router
+- State management using React Hooks
+- Persistent data using LocalStorage
+- Styled UI using Styled Components
+- Fully written in TypeScript
+
+---
+
+## Technologies Used
+
+This project was developed using the following technologies:
+
+- React
+- TypeScript
+- Styled Components
+- React Router
+- Vite
+- LocalStorage API
+
+---
+
+## Key Concepts Practiced
+
+During the development of this project, the following React concepts were explored:
+
+- Componentization
+- State management with `useState`
+- Side effects using `useEffect`
+- Complex state handling using `useReducer`
+- Page routing
+- Persistent data storage with LocalStorage
+- Modular project structure
+- Styling with Styled Components
+
+---
+
+## Demonstration
+
+### Home Screen
+
+<p align="center">
+  <img src="src/assets/readmeImages/TelaInicial.png"/>
+</p>
+
+<p align="center">
+  <em>Main interface where users can start a Pomodoro timer cycle.</em>
+</p>
+
+### History Screen
+
+<p align="center">
+  <img src="src/assets/readmeImages/Historico.png"/>
+</p>
+
+<p align="center">
+  <em>History page displaying previous Pomodoro cycles.</em>
+</p>
+
+---
+
+## How to Run the Project Locally
+
+### 1. Clone the repository
 
 ```bash
-# Clone o repositório
 git clone https://github.com/yVictorK/ProjetoPomodoro.git
-
-# Acesse a pasta do projeto
-cd ProjetoPomodoro
-
-# Instale as dependências
-npm install
-# ou, se preferir usar yarn
-yarn install
-
-# Inicie o servidor de desenvolvimento
-npm run dev
-# ou
-yarn dev
-
 ```
 
-#ProjetoPomodoro
+### 2. Navigate to the project folder
 
+```bash
+cd ProjetoPomodoro
+```
 
+### 3. Install dependencies
 
+Using npm:
+
+```bash
+npm install
+```
+
+Or using yarn:
+
+```bash
+yarn install
+```
+
+### 4. Start the development server
+
+Using npm:
+
+```bash
+npm run dev
+```
+
+Or using yarn:
+
+```bash
+yarn dev
+```
+
+After running the development server, open the address displayed in the terminal in your browser.
+
+---
+
+## Educational Purpose
+
+This project was created as a learning exercise to improve knowledge in React and TypeScript development. It focuses on understanding how to structure a React application, manage state with hooks and reducers, and persist data in the browser.
+
+---
+
+## Author
+
+Victor Kossmann
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+Copyright (c) 2026 Victor Kossmann
