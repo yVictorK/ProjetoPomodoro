@@ -136,9 +136,3 @@ This project was created as a learning exercise to improve knowledge in React an
 Victor Kossmann
 
 ---
-
-## License
-
-This project is licensed under the MIT License.
-
-Copyright (c) 2026 Victor Kossmann
